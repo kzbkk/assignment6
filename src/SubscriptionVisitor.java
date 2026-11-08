@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
 
-public class SubscriptionVisitor {
+public interface SubscriptionVisitor {
+    void visitBasic(BasicSubscription subscription);
+    void visitPremium(PremiumSubscription subscription);
 }

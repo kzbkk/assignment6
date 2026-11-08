@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Subscription {
+public interface Subscription {
+    void accept(SubscriptionVisitor visitor);
 }
